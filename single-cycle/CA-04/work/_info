@@ -1,0 +1,356 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/taha/modelsim/CA-03
+T_opt
+!s110 1623433719
+VfQLP7SziU?LY?GcIbFYFI2
+04 3 4 work ALU fast 0
+=1-04d4c4701a7a-60c3a1f7-1a0-1188
+Z1 o-quiet -auto_acc_if_foreign -work work +acc
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+T_opt1
+!s110 1623432128
+VKF_jSPh]1E45DzC>jUmZ83
+04 8 4 work mipsTest fast 0
+=1-04d4c4701a7a-60c39bc0-5d-51f4
+R1
+R2
+n@_opt1
+R3
+R0
+T_opt2
+!s110 1623425105
+VOcDda6QaNXWRfQ]8LYCz:0
+04 4 4 work mips fast 0
+=1-04d4c4701a7a-60c38051-47-1af4
+R1
+R2
+n@_opt2
+R3
+R0
+vALU
+Z4 !s110 1623432123
+!i10b 1
+!s100 MCAeNNV3U3Eo^m2Z6?JUI0
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IbNfCBM4[ROV20]ZNe0d6N1
+Z6 dC:/Users/taha/modelsim/CA-04
+Z7 w1622968344
+Z8 8C:/Users/taha/modelsim/CA-04/alu.v
+Z9 FC:/Users/taha/modelsim/CA-04/alu.v
+!i122 494
+L0 1 32
+Z10 VDg1SIo80bB@j0V0VzS_@n1
+Z11 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z12 !s108 1623432123.000000
+Z13 !s107 C:/Users/taha/modelsim/CA-04/alu.v|
+Z14 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/alu.v|
+!i113 0
+Z15 o-work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+n@a@l@u
+Xalu_v_unit
+Z16 DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R4
+V2<N;Cb7OVX>4:A::AHR=C0
+r1
+!s85 0
+!i10b 1
+!s100 5dWSk1^oP[ES[14eA9=^N2
+I2<N;Cb7OVX>4:A::AHR=C0
+!i103 1
+S1
+R6
+R7
+R8
+R9
+!i122 494
+L0 57 0
+R11
+31
+R12
+R13
+R14
+!i113 0
+R15
+R2
+vALUControl
+R4
+!i10b 1
+!s100 fFL1XNakfN3UIZ0dClbNY3
+R5
+IOF@VUT2j77nCh69_JBd:Y2
+R6
+w1622969455
+8C:/Users/taha/modelsim/CA-04/ALU_Control.v
+FC:/Users/taha/modelsim/CA-04/ALU_Control.v
+!i122 498
+L0 1 22
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/taha/modelsim/CA-04/ALU_Control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/ALU_Control.v|
+!i113 0
+R15
+R2
+n@a@l@u@control
+vControl
+R4
+!i10b 1
+!s100 :8z9@TnO^ja>DV?GECXbi0
+R5
+Ia2b1H]0N39IPcWbVPUe=M2
+R6
+w1623090118
+8C:/Users/taha/modelsim/CA-04/Control.v
+FC:/Users/taha/modelsim/CA-04/Control.v
+!i122 497
+L0 1 142
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/taha/modelsim/CA-04/Control.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/Control.v|
+!i113 0
+R15
+R2
+n@control
+XData2dMemory_v_unit
+R16
+R4
+V7TL<GiFj61Q5=gPoZaTC>3
+r1
+!s85 0
+!i10b 1
+!s100 h^G:gE;?5WGPfhGA1VW@D1
+I7TL<GiFj61Q5=gPoZaTC>3
+!i103 1
+S1
+R6
+Z17 w1623424210
+Z18 8C:/Users/taha/modelsim/CA-04/Data-Memory.v
+Z19 FC:/Users/taha/modelsim/CA-04/Data-Memory.v
+!i122 492
+L0 48 0
+R11
+31
+R12
+Z20 !s107 C:/Users/taha/modelsim/CA-04/Data-Memory.v|
+Z21 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/Data-Memory.v|
+!i113 0
+R15
+R2
+n@data2d@memory_v_unit
+vDMemBank
+R4
+!i10b 1
+!s100 lOfcD4Q7Pman`=X>F>l1]0
+R5
+I;TFKoEiFid^cT_`Ymlz4g1
+R6
+R17
+R18
+R19
+!i122 492
+L0 2 26
+R10
+R11
+r1
+!s85 0
+31
+R12
+R20
+R21
+!i113 0
+R15
+R2
+n@d@mem@bank
+vIMemBank
+R4
+!i10b 1
+!s100 <beDCd=zhi=TE<12;PAao3
+R5
+I3PmkR050o=;VCKj;BK][j3
+R6
+Z22 w1623416742
+Z23 8C:/Users/taha/modelsim/CA-04/Inst-Memory.v
+Z24 FC:/Users/taha/modelsim/CA-04/Inst-Memory.v
+!i122 495
+L0 2 72
+R10
+R11
+r1
+!s85 0
+31
+R12
+Z25 !s107 C:/Users/taha/modelsim/CA-04/Inst-Memory.v|
+Z26 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/Inst-Memory.v|
+!i113 0
+R15
+R2
+n@i@mem@bank
+XInst2dMemory_v_unit
+R16
+R4
+VJN>S_f>6mejl:IbAD4ScT0
+r1
+!s85 0
+!i10b 1
+!s100 a?k2_^R93bT]N;i7`F7Ud2
+IJN>S_f>6mejl:IbAD4ScT0
+!i103 1
+S1
+R6
+R22
+R23
+R24
+!i122 495
+L0 93 0
+R11
+31
+R12
+R25
+R26
+!i113 0
+R15
+R2
+n@inst2d@memory_v_unit
+vmips
+R4
+!i10b 1
+!s100 lGTYkLYghbALmWP^?_B440
+R5
+IBX2[z60411Z;HmOBzg0f]2
+R6
+w1623432054
+8C:/Users/taha/modelsim/CA-04/FUM_MIPS.v
+FC:/Users/taha/modelsim/CA-04/FUM_MIPS.v
+!i122 496
+L0 1 166
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/taha/modelsim/CA-04/FUM_MIPS.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/FUM_MIPS.v|
+!i113 0
+R15
+R2
+vmipsTest
+R4
+!i10b 1
+!s100 e7Iome?3ORE8Ei=9QzD1F0
+R5
+I<P0V]]YC@6_K>R_T=0Qk02
+R6
+w1623432120
+8C:/Users/taha/modelsim/CA-04/mips_testbench.v
+FC:/Users/taha/modelsim/CA-04/mips_testbench.v
+!i122 499
+L0 1 23
+R10
+R11
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/taha/modelsim/CA-04/mips_testbench.v|
+!s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/mips_testbench.v|
+!i113 0
+R15
+R2
+nmips@test
+vRegFile
+R4
+!i10b 1
+!s100 4jZZB;eYi3F=M>@1;_89a2
+R5
+IAJNHC2Jg?gMjURhfSC>]?0
+R6
+Z27 w1623415580
+Z28 8C:/Users/taha/modelsim/CA-04/regfile.v
+Z29 FC:/Users/taha/modelsim/CA-04/regfile.v
+!i122 493
+L0 1 18
+R10
+R11
+r1
+!s85 0
+31
+R12
+Z30 !s107 C:/Users/taha/modelsim/CA-04/regfile.v|
+Z31 !s90 -reportprogress|300|-work|work|-vopt|-stats=none|C:/Users/taha/modelsim/CA-04/regfile.v|
+!i113 0
+R15
+R2
+n@reg@file
+Xregfile_v_unit
+R16
+R4
+V:kC<HFl43THff0?NDNHeP3
+r1
+!s85 0
+!i10b 1
+!s100 CeGCg>_J]b^:lE7aF:9Wd2
+I:kC<HFl43THff0?NDNHeP3
+!i103 1
+S1
+R6
+R27
+R28
+R29
+!i122 493
+L0 18 0
+R11
+31
+R12
+R30
+R31
+!i113 0
+R15
+R2
+vtestbench
+R4
+!i10b 1
+!s100 Q_2C3MzA;5_OZ6h_46_KZ1
+R5
+I=lhKjYPeM;=_eMBd7;>Fb2
+R6
+R22
+R23
+R24
+!i122 495
+L0 75 19
+R10
+R11
+r1
+!s85 0
+31
+R12
+R25
+R26
+!i113 0
+R15
+R2

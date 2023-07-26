@@ -1,0 +1,74 @@
+C:/Users/taha/modelsim/CA-04/Control.v {1 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/Control.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module Control
+
+Top level modules:
+	Control
+
+} {} {}} C:/Users/taha/modelsim/CA-04/ALU_Control.v {1 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/ALU_Control.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALUControl
+
+Top level modules:
+	ALUControl
+
+} {} {}} C:/Users/taha/modelsim/CA-04/alu.v {2 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/alu.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module ALU
+-- Compiling module testbench
+** Warning: C:/Users/taha/modelsim/CA-04/alu.v(57): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/taha/modelsim/CA-04/alu.v(58): (vlog-2284) Empty $unit scope found.
+-- Compiling package alu_v_unit
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/taha/modelsim/CA-04/regfile.v {2 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/regfile.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module RegFile
+** Warning: C:/Users/taha/modelsim/CA-04/regfile.v(18): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/taha/modelsim/CA-04/regfile.v(63): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/taha/modelsim/CA-04/regfile.v(64): (vlog-2284) Empty $unit scope found.
+-- Compiling package regfile_v_unit
+-- Compiling module testbench
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/taha/modelsim/CA-04/Data-Memory.v {2 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/Data-Memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module DMemBank
+-- Compiling module testbench
+** Warning: C:/Users/taha/modelsim/CA-04/Data-Memory.v(48): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/taha/modelsim/CA-04/Data-Memory.v(49): (vlog-2284) Empty $unit scope found.
+-- Compiling package Data2dMemory_v_unit
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/taha/modelsim/CA-04/Inst-Memory.v {2 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/Inst-Memory.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module IMemBank
+-- Compiling module testbench
+** Warning: C:/Users/taha/modelsim/CA-04/Inst-Memory.v(93): (vlog-2283) Extra semicolon in $unit (global) scope.
+** Warning: C:/Users/taha/modelsim/CA-04/Inst-Memory.v(94): (vlog-2284) Empty $unit scope found.
+-- Compiling package Inst2dMemory_v_unit
+
+Top level modules:
+	testbench
+
+} {} {}} C:/Users/taha/modelsim/CA-04/mips_testbench.v {1 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/mips_testbench.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mipsTest
+
+Top level modules:
+	mipsTest
+
+} {} {}} C:/Users/taha/modelsim/CA-04/FUM_MIPS.v {1 {vlog -work work -vopt -stats=none C:/Users/taha/modelsim/CA-04/FUM_MIPS.v
+Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+-- Compiling module mips
+
+Top level modules:
+	mips
+
+} {} {}}

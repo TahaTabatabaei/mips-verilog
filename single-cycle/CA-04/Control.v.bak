@@ -1,0 +1,142 @@
+module Control( input[5:0] opcode,
+                           output reg[2:0] alu_op,
+                           output reg reg_dst ,jump ,branch ,mem_read ,mem_to_reg ,mem_write ,alu_src ,reg_write
+   );
+ always @(*)
+ begin
+      case(opcode)
+	// R-Type
+      6'b000000: begin
+                reg_dst = 1'b1;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b000;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b0;
+                reg_write = 1'b1;
+                end
+	// I-Type
+      6'b000001: begin // addi
+                reg_dst = 0'b0;
+                mem_to_reg = 0'b0;
+                alu_op = 3'b100;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b1;
+                reg_write = 1'b1;
+//                sign_or_zero = 1'b1;
+                end
+      6'b000010: begin // andi
+                reg_dst = 0'b0;
+                mem_to_reg = 0'b0;
+                alu_op = 3'b010;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b1;
+                reg_write = 1'b1;
+//                sign_or_zero = 1'b0;
+                end
+      6'b000011: begin // ori
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b001;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b1;
+                reg_write = 1'b1;
+  //              sign_or_zero = 1'b0;
+                end
+      6'b000100: begin // slti
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                aluop = 3'b000;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b1;
+                reg_write = 1'b1;
+                end;
+      6'b000111: begin // lw
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b1;
+                alu_op = 3'b100;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b1;
+                mem_write = 1'b0;
+                alu_src = 1'b1;
+                reg_write = 1'b1;
+  //              sign_or_zero = 1'b1;
+                end
+      6'b001000: begin // sw
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b100;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b1;
+                alu_src = 1'b1;
+                reg_write = 1'b0;
+//                sign_or_zero = 1'b1;
+                end
+      6'b001001: begin // beq
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b011;
+                jump = 1'b0;
+                branch = 1'b1;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b0;
+                reg_write = 1'b0;
+  //              sign_or_zero = 1'b1;
+                end
+      6'b001010: begin // bne
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b011;
+                jump = 1'b0;
+                branch = 1'b1;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b0;
+                reg_write = 1'b0;
+  //              sign_or_zero = 1'b1;
+                end
+      6'b001111: begin // j
+                reg_dst = 1'b0;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b000;
+                jump = 1'b1;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b0;
+                reg_write = 1'b0;
+  //              sign_or_zero = 1'b1;
+                end
+      default: begin
+                reg_dst = 1'b1;
+                mem_to_reg = 1'b0;
+                alu_op = 3'b000;
+                jump = 1'b0;
+                branch = 1'b0;
+                mem_read = 1'b0;
+                mem_write = 1'b0;
+                alu_src = 1'b0;
+                reg_write = 1'b0;
+  //              sign_or_zero = 1'b1;
+                end
+      endcase
+ end
+ endmodule
